@@ -9,17 +9,20 @@
     <com.vipulasri.ticketview.TicketView
         app:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="?android:actionBarSize"
         android:layout_marginTop="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:id="@+id/ticketView"
-        app:ticketElevation="12dp"
-        app:scallopRadius="10dp"
+        app:ticketElevation="0dp"
+        app:scallopRadius="30dp"
         app:dividerPadding="0dp"
         app:showBorder="false"
         app:scallopPositionPercent="50"
-        app:showDivider="true"
+        app:showDivider="false"
         app:dividerType="dash"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asasd"/>
 
 </RelativeLayout>

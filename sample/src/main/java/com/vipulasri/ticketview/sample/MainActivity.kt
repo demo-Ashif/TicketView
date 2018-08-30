@@ -141,7 +141,7 @@ class MainActivity : BaseActivity() {
 
         //divider properties
 
-        ticketView.isShowDivider = true
+        ticketView.isShowDivider = false
         checkbox_show_divider.isChecked = true
         checkbox_show_divider.setOnCheckedChangeListener({ compoundButton, checked ->
             ticketView.isShowDivider = checked
